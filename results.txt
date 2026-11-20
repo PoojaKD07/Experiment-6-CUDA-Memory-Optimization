@@ -1,0 +1,116 @@
+
+========================================
+ CUDA MEMORY OPTIMIZATION EXPERIMENT
+========================================
+GPU              : Tesla T4
+Transpose matrix : 4096 x 4096
+MatMul matrix    : 1024 x 1024
+
+========================================
+         TRANSPOSE RESULTS
+========================================
+
+Uncoalesced Transpose:
+Time           : 2.8454 ms
+Bandwidth      : 47.17 GB/s
+Correctness    : PASS
+
+Coalesced Transpose:
+Time           : 0.7454 ms
+Bandwidth      : 180.06 GB/s
+Correctness    : PASS
+
+Transpose Speedup:
+3.82x
+
+========================================
+     MATRIX MULTIPLICATION RESULTS
+========================================
+Matrix Size    : 1024 x 1024
+Execution Time : 8.3541 ms
+Performance    : 257.06 GFLOPS
+Correctness    : PASS
+
+========================================
+       EXPERIMENT COMPLETED
+========================================
+
+
+
+
+========================================
+ CUDA MEMORY OPTIMIZATION EXPERIMENT
+========================================
+GPU              : Tesla T4
+Transpose matrix : 4096 x 4096
+MatMul matrix    : 1024 x 1024
+
+========================================
+         TRANSPOSE RESULTS
+========================================
+
+Uncoalesced Transpose:
+Time           : 2.1117 ms
+Bandwidth      : 63.56 GB/s
+Correctness    : PASS
+
+Coalesced Transpose:
+Time           : 0.7137 ms
+Bandwidth      : 188.05 GB/s
+Correctness    : PASS
+
+Transpose Speedup:
+2.96x
+
+========================================
+     MATRIX MULTIPLICATION RESULTS
+========================================
+Matrix Size    : 1024 x 1024
+Execution Time : 7.3442 ms
+Performance    : 292.41 GFLOPS
+Correctness    : PASS
+
+========================================
+       EXPERIMENT COMPLETED
+========================================
+
+
+
+
+
+========================================
+ CUDA MEMORY OPTIMIZATION EXPERIMENT
+========================================
+GPU              : Tesla T4
+Transpose matrix : 4096 x 4096
+MatMul matrix    : 1024 x 1024
+
+========================================
+         TRANSPOSE RESULTS
+========================================
+
+Uncoalesced Transpose:
+Time           : 2.9228 ms
+Bandwidth      : 45.92 GB/s
+Correctness    : PASS
+
+Coalesced Transpose:
+Time           : 0.8137 ms
+Bandwidth      : 164.95 GB/s
+Correctness    : PASS
+
+Transpose Speedup:
+3.59x
+
+========================================
+     MATRIX MULTIPLICATION RESULTS
+========================================
+Matrix Size    : 1024 x 1024
+Execution Time : 8.9805 ms
+Performance    : 239.13 GFLOPS
+Correctness    : PASS
+
+========================================
+       EXPERIMENT COMPLETED
+========================================
+
